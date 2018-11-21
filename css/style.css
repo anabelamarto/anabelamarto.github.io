@@ -1,3 +1,7 @@
+@font-face {
+    font-family: myFontLight;
+    src: url(segoeuil.ttf);
+}
 *,
 *::before,
 *::after {
@@ -405,11 +409,20 @@ select {
 }
 
 .logo__title {
-	font-size: 32px;
-	font-size: 2.5rem;
-	font-weight: 700;
+	font-family: MyFontLight;
+	letter-spacing: -1px;
+	font-variant: normal;
+	font-size: 40px;
+	font-size: 3rem;
+	font-weight: 400;
 	line-height: 1.5;
-	color: #000;
+	color: #6d6d6d;
+}
+
+.logo_img{
+	width: 15%;
+    height: auto;
+	vertical-align: middle;
 }
 
 .logo__tagline {
