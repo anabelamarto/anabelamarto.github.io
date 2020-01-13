@@ -59,6 +59,11 @@ p.lead {
 	font-size: 2rem;
 }
 
+.mini-text{
+	font-size: 0.8rem;
+	font-style: italic;
+}
+
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
